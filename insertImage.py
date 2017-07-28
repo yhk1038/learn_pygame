@@ -4,6 +4,9 @@ import pygame
 pygame.init()
 pygame.display.set_caption('이미지 삽입 테스트')
 
+# pygame.mixer.music.load('IU-maum.mp3')
+# pygame.mixer.music.play(-1)
+
 display_width = 800
 display_height = 600
 ourScreen = pygame.display.set_mode((display_width, display_height))
