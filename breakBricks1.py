@@ -291,24 +291,6 @@ class BreakBrick:
         self.init_boll = options['boll']
         self.init_brick = options['brick']
         
-        # # Launch Game
-        # pygame.init()
-        # self.load_music()
-        #
-        # # Objects init
-        # self.myScreen = Screen([self.init_size])
-        # self.myColor = Color()
-        # self.myPaddle = Paddle([self.myScreen, self.myColor], {'size': [self.init_paddle[0], self.init_paddle[1]], 'speed': self.init_paddle[2]})
-        # self.myBoll = Boll([self.myScreen, self.myColor, self.myPaddle], {'radius': self.init_boll[0], 'speed': self.init_boll[1]})
-        # self.myBricks = Brick([self.myScreen, self.myColor, self.myBoll], {'vertical_length': self.init_brick[0]})
-        #
-        # self.bricks = self.myBricks.bricks_array()
-        # self.myScore = Score([self.myScreen, self.myColor], {'bricks': self.bricks})
-        #
-        # # Set Game
-        # self.screen = pygame.display.set_mode((self.myScreen.width, self.myScreen.height))
-        # pygame.display.set_caption('Break Bricks')
-        # self.clock = pygame.time.Clock()
         self.load_data()
         pass
     
